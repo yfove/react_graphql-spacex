@@ -6,7 +6,7 @@ import Loader from './../Loader';
 import TopMenu from './../TopMenu';
 import SideMenu from './../SideMenu';
 // hooks
-import useNavigation from './../hooks/useNavigation';
+import useNavigation from './../../hooks/useNavigation';
 // style
 import './style.scss';
 
