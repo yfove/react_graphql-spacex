@@ -1,4 +1,8 @@
 import React, { Fragment } from 'react';
+import { gql, useQuery } from '@apollo/client';
+//components
+import Error from './../components/Error';
+import Loader from './../../components/Loader';
 
 const PastLaunches = () => {
     return (
